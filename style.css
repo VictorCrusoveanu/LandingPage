@@ -38,6 +38,13 @@ h3 {
   margin-top: 0;
   margin-bottom: 8px;
 }
+
+/* two-columns */
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
 .content-container {
   padding-left: 22px;
   padding-right: 22px;
