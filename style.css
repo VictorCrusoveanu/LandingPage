@@ -207,6 +207,10 @@ nav {
   margin: 0 auto;
   margin-bottom: 24px;
 }
+.two-columns {
+  padding: 100px 100px 31px 31px;
+  margin: 0 auto;
+}
 .four-columns .item p {
   margin: 0;
 }
@@ -218,6 +222,31 @@ nav {
 }
 .four-columns .item:nth-child(4) .img {
   background: #f03e3d;
+
+  /* two-columns */
+  .two-columns img {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .two-columns h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  .two-columns h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .two-columns p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding: 38px;
+  }
 }
 /* responsive */
 @media (min-width: 767px) {
@@ -294,9 +323,8 @@ nav {
   .section-1 .buttons {
     justify-content: flex-start;
   }
-
-  /* min width 950 */
 }
+/* min width 950 */
 @media (min-width: 1200px) {
   h1 {
     font-size: 40px;
